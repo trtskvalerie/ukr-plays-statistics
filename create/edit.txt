@@ -1,0 +1,18 @@
+﻿em dash no spaces —
+multiple spaces {2,}
+space newline
+newline space
+multiple newlines ^p^p
+fancy apostrophe [`’]
+fancy quotes [«»”“„]
+triple dot …
+random symbols ¬
+no dot at end of title subtitle  [^.?!)"]\n
+no space between sentences \.[^\n )."] (though initials  text = re.sub(r'([А-ЯІЇЄ][.])([А-ЯІЇЄ])', r'\1 \2', text) twice)
+part of word + hyphen + space + other part of word text = re.sub(r'([а-яіїєА-ЯІЇЄ])- ([а-яіїєА-ЯІЇЄ])', r'\1\2', text)
+
+Latin symbols in cyrillic text:
+i
+p
+... some other lower case ones
+H

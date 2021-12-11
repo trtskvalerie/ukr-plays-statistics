@@ -1,0 +1,21 @@
+create tables in database of complete sample (create_tables.py)
+create complete sample (main.py)
+fix pos tags (edit_pos.py)
+create sys sample (sys_sample.py)
+UPDATE words SET pos = 'prep' WHERE lemma == 'до';
+remove excess words from sys sample (manual, terminal; DELETE FROM words WHERE id > 20000;)
+form freq table with freqs in subsamples (get_form_freq.py)
+lem freq table with freqs in subsamples (get_lem_freq.py)
+pos freq table with freqs in subsamples (get_pos_freq.py)
+get_variantas.py
+visualize_pos_freq_polygons.py
+get_avg_freq.py
+get_relative_freq.py
+get_stand_dev.py
+get_sigmax.py
+get_var_coeff.py
+get_max_var_coeff.py
+get_stability_coeff.py
+get_error.py
+get_subs_needed.py
+get_confid_intervals.py
